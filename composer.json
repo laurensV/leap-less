@@ -1,5 +1,5 @@
 {
-    "name": "leap/less",
+    "name": "leap-plugin/less",
     "description": "Less compiler plugin for Leap framework",
     "type": "leap-plugin",
     "license": "GPL-2.0+",
