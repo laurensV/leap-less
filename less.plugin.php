@@ -8,7 +8,7 @@ namespace Leap\Hooks\Less {
             }
             chdir($base_path);
             $less_file = array($style => '/');
-            $options   = array('cache_dir' => ROOT . 'files/css', 'compress' => true);
+            $options   = array('cache_dir' => FILES . 'css', 'compress' => true);
             $style     = BASE_URL . 'files/css/' . \Less_Cache::Get($less_file, $options);
         }
     }
